@@ -10,3 +10,5 @@
 | [minecraft:angry](./list/angry.md) |  使用计时器定义实体的“愤怒”状态。 |
 | [minecraft:annotation.break_door](./list/annotation;break_door.md) |  强制实体打破门，假设为组件设置了用于导航的标志。 |
 | [minecraft:annotation.open_door](./list/annotation;open_door.md) |  强制实体打开门，假设已为组件设置了用于导航的标志。 |
+| [minecraft:area_attack](./list/area_attack.md) |  是一个对指定范围内的实体造成伤害的组件。 |
+| [minecraft:attack](./list/attack.md) |  定义实体的近战攻击及其攻击的任何附加效果。 |
