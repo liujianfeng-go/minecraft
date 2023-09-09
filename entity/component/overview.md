@@ -78,3 +78,88 @@
 | [minecraft:is_chested](./list/is_chested.md) |  设置实体当前携带箱子。 |
 | [minecraft:is_dyeable](./list/is_dyeable.md) |  允许实体与染料交互以改变其颜色。 |
 | [minecraft:is_hidden_when_invisible](./list/is_hidden_when_invisible.md) |  设置实体在不可见时可以躲避敌对生物。 |
+| [minecraft:is_ignited](./list/is_ignited.md) |  设置实体当前着火。 |
+| [minecraft:is_illager_captain](./list/is_illager_captain.md) |  设置该实体是 illager 队长。 |
+| [minecraft:is_saddled](./list/is_saddled.md) |  设置实体当前已被加鞍。 |
+| [minecraft:is_shaking](./list/is_shaking.md) |  设置实体当前正在摇晃。 |
+| [minecraft:is_sheared](./list/is_sheared.md) |  设置该实体当前已被剪切。 |
+| [minecraft:is_stackable](./list/is_stackable.md) |  设置该实体可以堆叠。 |
+| [minecraft:is_stunned](./list/is_stunned.md) |  设置实体当前处于震惊状态。 |
+| [minecraft:is_tamed](./list/is_tamed.md) |  设置实体当前已被驯服。 |
+| [minecraft:item_controllable](./list/item_controllable.md) |  允许实体在骑乘该实体时由物品控制。 |
+| [minecraft:item_hopper](./list/item_hopper.md) |  允许实体像漏斗块一样发挥作用。 |
+| [minecraft:jump.dynamic](./list/jump;dynamic.md) |  定义了一个动态类型的跳跃控件，它将根据生物的速度修改器更改跳跃属性。 |
+| [minecraft:jump.static](./list/jump;static.md) | 赋予实体跳跃的能力。 |
+| [minecraft:knockback_resistance](./list/knockback_resistance.md) |  迫使实体抵抗近战攻击向后击退的能力。 |
+| [minecraft:lava_movement](./list/lava_movement.md) |  允许自定义跨熔岩块的移动速度。 |
+| [minecraft:leashable](./list/leashable.md) |  允许实体被束缚，并定义实体被束缚时的条件和事件。 |
+| [minecraft:lookat](./list/lookat.md) |  定义当另一个实体查看该实体时的行为。 |
+| [minecraft:loot](./list/loot.md) |  定义了实体死亡时掉落的物品。 |
+| [minecraft:managed_wandering_trader](./list/managed_wandering_trader.md) |  管理实体的交易能力。 |
+| [minecraft:mark_variant](./list/mark_variant.md) |  定义实体的标记变量。 |
+| [minecraft:mob_effect](./list/mob_effect.md) |  对范围内的实体应用生物效果。 |
+| [minecraft:movement.amphibious](./list/movement;amphibious.md) |  迫使实体在水中游泳并在陆地上行走。 |
+| [minecraft:movement.basic](./list/movement;basic.md) |  定义实体的基本移动行为。 |
+| [minecraft:movement.dolphin](./list/movement;dolphin.md) |  用于迫使实体以类似海豚的方式移动。 |
+| [minecraft:movement.fly](./list/movement;fly.md) |  定义实体的飞行行为。 |
+| [minecraft:movement.generic](./list/movement;generic.md) |  允许实体飞行、游泳、攀爬等。 |
+| [minecraft:movement.glide](./list/movement;glide.md) |  是具有滑翔运动的飞行实体的移动控件。 |
+| [minecraft:movement.hover](./list/movement;hover.md) |  导致实体悬停。 |
+| [minecraft:movement.jump](./list/movement;jump.md) |  导致实体在跳跃之间以指定的延迟移动时跳跃。 |
+| [minecraft:movement.skip](./list/movement;skip.md) |  使实体在移动时跳跃。 |
+| [minecraft:movement.sway](./list/movement;sway.md) |  迫使实体左右摇摆，给人一种正在游泳的印象。 |
+| [minecraft:nameable](./list/nameable.md) |  允许实体被命名（例如使用名称标签）。 |
+| [minecraft:navigation.climb](./list/navigation;climb.md) |  允许该实体生成包含垂直墙壁的路径，就像原版蜘蛛一样。 |
+| [minecraft:navigation.float](./list/navigation;float.md) |  允许该实体像常规恶魂一样通过在空中飞行来生成路径。 |
+| [minecraft:navigation.fly](./list/navigation;fly.md) |  允许实体像鹦鹉一样在空中生成路径。 |
+| [minecraft:navigation.generic](./list/navigation;generic.md) |  迫使实体通过行走、游泳、飞行、攀爬或在方块上跳上跳下来生成路径。 |
+| [minecraft:navigation.hover](./list/navigation;hover.md) |  迫使实体像蜜蜂一样在空中生成路径。 防止它们从空中掉下来并进行预测性运动。 |
+| [minecraft:navigation.swim](./list/navigation;swim.md) |  迫使实体生成包含水的路径。 |
+| [minecraft:navigation.walk](./list/navigation;walk.md) |  迫使实体通过在方块中走来走去并上下跳跃来生成路径。 |
+| [minecraft:out_of_control](./list/out_of_control.md) |  定义实体的“失控”状态。 |
+| [minecraft:peek](./list/peek.md) |  定义了实体的“窥视”行为，以及在此过程中应该调用的事件。 |
+| [minecraft:persistent](./list/persistent.md) |  定义实体是否应该持久存在于游戏世界中。 |
+| [minecraft:physics](./list/physics.md) |  定义实体的物理属性，包括它是否受重力影响或是否与物体碰撞。 |
+| [minecraft:player.exhaustion](./list/player;exhaustion.md) |  定义玩家的疲惫程度。 |
+| [minecraft:player.experience](./list/player;experience.md) |  定义了每个玩家的操作需要多少经验。 |
+| [minecraft:player.level](./list/player;level.md) |  定义玩家的等级。 |
+| [minecraft:player.saturation](./list/player;saturation.md) |  定义玩家对食物的需求。 |
+| [minecraft:preferred_path](./list/preferred_path.md) |  指定更喜欢在首选路径上行走的实体的成本信息。 |
+| [minecraft:projectile](./list/projectile.md) |  允许实体成为投掷实体。 |
+| [minecraft:push_through](./list/push_through.md) |  设置实体可以推进的距离。 |
+| [minecraft:pushable](./list/pushable.md) |  定义了可以在其他实体和活塞之间推动实体的内容。 |
+| [minecraft:raid_trigger](./list/raid_trigger.md) |  尝试在实体所在位置触发袭击。 |
+| [minecraft:rail_movement](./list/rail_movement.md) |  定义实体在轨道上的移动。 具有该组件的实体只允许在轨道上移动。 |
+| [minecraft:rail_sensor](./list/rail_sensor.md) |  定义实体经过激活或停用的轨道时的行为。 |
+| [minecraft:ravager_blocked](./list/ravager_blocked.md) |  定义掠夺者对其近战攻击被阻挡的反应。 |
+| [minecraft:rideable](./list/rideable.md) |  确定实体是否可以骑乘。 允许指定不同的座位位置和数量。 |
+| [minecraft:scaffolding_climber](./list/scaffolding_climber.md) |  允许玩家在脚手架块上进行检测和操纵。 |
+| [minecraft:scale](./list/scale.md) |  定义实体的缩放比例。 |
+| [minecraft:scale_by_age](./list/scale_by_age.md) |  根据实体的年龄定义实体的大小插值。 |
+| [minecraft:scheduler](./list/scheduler.md) |  在一天中的活动期间启动预定的生物事件。 |
+| [minecraft:shareables](./list/shareables.md) |  定义了生物想要共享或拾取的物品列表。 |
+| [minecraft:shooter](./list/shooter.md) |  定义实体的远程攻击行为。 “minecraft:behavior.ranged_attack”目标使用此组件来确定要发射的射弹。 |
+| [minecraft:sittable](./list/sittable.md) |  定义实体的“坐”状态。 |
+| [minecraft:skin_id](./list/skin_id.md) |  设置实体的皮肤 ID 值。 可用于区分皮肤，例如村民的基础皮肤。 |
+| [minecraft:sound_volume](./list/sound_volume.md) |  设置实体的音效基本音量。 |
+| [minecraft:spawn_entity](./list/spawn_entity.md) |  添加了一个计时器，之后实体将生成另一个实体或物品（类似于鸡的产蛋行为）。 |
+| [minecraft:strength](./list/strength.md) | 定义了实体携带物品的能力。 |
+| [minecraft:tameable](./list/tameable.md) |  定义玩家驯服实体的规则。 |
+| [minecraft:tamemount](./list/tamemount.md) |  允许通过安装来驯服它。 |
+| [minecraft:target_nearby_sensor](./list/target_nearby_sensor.md) |  定义实体可以看到或感知其他实体以瞄准它们的范围。 |
+| [minecraft:teleport](./list/teleport.md) |  定义实体的传送行为。 |
+| [minecraft:tick_world](./list/tick_world.md) |  定义实体是否勾选世界及其周围的半径。？？ |
+| [minecraft:timer](./list/timer.md) |  添加一个计时器，之后事件将启动。 |
+| [minecraft:trade_table](./list/trade_table.md) |  定义实体与玩家进行交易的能力。 |
+| [minecraft:trail](./list/trail.md) |  导致实体在世界各地移动时留下方块痕迹。 |
+| [minecraft:transformation](./list/transformation.md) |  定义实体从当前定义到另一个定义的转换。 |
+| [minecraft:trust](./list/trust.md) |  迫使实体信任一名或多名玩家。 |
+| [minecraft:trusting](./list/trusting.md) |  定义了实体信任玩家的规则。 |
+| [minecraft:type_family](./list/type_family.md) |  定义该实体所属的家族。 |
+| [minecraft:underwater_movement](./list/underwater_movement.md) |  定义实体在水中移动的速度。 |
+| [minecraft:variant](./list/variant.md) |  用于区分实体变体的组件组与其他实体，例如豹猫、村民和马。 |
+| [minecraft:walk_animation_speed](./list/walk_animation_speed.md) |  设置该实体的行走动画速度的速度乘数。 |
+| [minecraft:wants_jockey](./list/wants_jockey.md) |  设置该实体想要成为骑师。 |
+| [minecraft:water_movement](./list/water_movement.md) |  定义实体在水中移动的速度。 |
+| [minecraft:variable_max_auto_step](./list/variable_max_auto_step.md) |  允许实体具有不同的最大自动步高，具体取决于它们是否位于防止跳跃的方块上。 与“runtime_identifier”不兼容：“minecraft:horse”。 |
+
