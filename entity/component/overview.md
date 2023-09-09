@@ -58,3 +58,23 @@
 | [minecraft:game_event_movement_tracking](./list/game_event_movement_tracking.md) |  强制实体发出实体移动、游泳和拍打游戏事件，具体取决于实体正在移动的方块。 它默认添加到每个生物中。 再次添加它以覆盖其行为。 |
 | [minecraft:genetics](./list/genetics.md) |  定义了生物的基因和等位基因传递给其后代的方式，以及这些特征如何在孩子身上体现。 兼容的亲本基因杂交在一起，等位基因从父母传给孩子，任何匹配的遗传变异都会启动 JSON 事件来修改孩子并表达性状。 |
 | [minecraft:giveable](./list/giveable.md) |  定义了在实体上使用时可用于启动事件的项目集。 该物品也将被取出并放置在实体的库存中。 |
+| [minecraft:ground_offset](./list/ground_offset.md) |  设置实体实际所在地面的偏移量。 |
+| [minecraft:group_size](./list/group_size.md) |  跟踪给定半径内的实体组大小。 |
+| [minecraft:grows_crop](./list/grows_crop.md) |  当实体走过农作物时，可以增加农作物的生长。 |
+| [minecraft:healable](./list/healable.md) |  定义与实体的交互以对其进行治疗。 |
+| [minecraft:health](./list/health.md) |  指定实体生成时的生命值。 |
+| [minecraft:heartbeat](./list/heartbeat.md) |  定义实体的心跳。 |
+| [minecraft:hide](./list/hide.md) |  迫使实体移动并隐藏在其拥有的 POI 或附近最近的 POI 处。 |
+| [minecraft:home](./list/home.md) |  保存实体生成时的家乡兴趣点。 |
+| [minecraft:horse.jump_strength](./list/horse;jump_strength.md) |  决定马或类似实体（如驴）的跳跃高度。 |
+| [minecraft:hurt_on_condition](./list/hurt_on_condition.md) |  定义了实体受到伤害的一组条件。 |
+| [minecraft:inside_block_notifier](./list/inside_block_notifier.md) |  验证实体是否位于任何列出的块内。 |
+| [minecraft:insomnia](./list/insomnia.md) |  自上次休息以来添加一个计时器，以查看幻影是否应该生成。 |
+| [minecraft:instant_despawn](./list/instant_despawn.md) |  立即使实体消失。 |
+| [minecraft:interact](./list/interact.md) |  是可与实体一起使用的交互列表。 |
+| [minecraft:inventory](./list/inventory.md) |  定义了如何管理实体的库存。 |
+| [minecraft:is_baby](./list/is_baby.md) |  设置该实体是婴儿。 |
+| [minecraft:is_charged](./list/is_charged.md) |  设置该实体已充电。 |
+| [minecraft:is_chested](./list/is_chested.md) |  设置实体当前携带箱子。 |
+| [minecraft:is_dyeable](./list/is_dyeable.md) |  允许实体与染料交互以改变其颜色。 |
+| [minecraft:is_hidden_when_invisible](./list/is_hidden_when_invisible.md) |  设置实体在不可见时可以躲避敌对生物。 |
